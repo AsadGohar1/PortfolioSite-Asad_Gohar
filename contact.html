@@ -1,0 +1,56 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Head element content is not visible in a browser window-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Asad Gohar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--Content visible in the browser's window is inside the HTML element-->
+<body>
+    <!--Header-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li> <!--Home link-->
+                <li><a href="about.html">About Me</a></li> <!--About Me link-->
+                <li><a href="projects.html">Projects</a></li> <!--Projects link-->
+                <li><a href="contact.html">Contact Me</a></li> <!--Contact Me link-->
+            </ul> 
+        </nav>
+    </header>
+    <!--Emd Header-->
+
+    <main> <!-- Contact Section -->
+        <section class="contact">
+            <h1>Contact Me</h1>
+            <form id="contactForm" action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Cell No.:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section> <!-- Contact Section -->
+    </main>
+
+    <footer>
+        <p>Contact Email: <a href="mailto:asad.gohar@ontariotechu.net">asad.gohar@ontariotechu.net</a></p>
+        <p>&copy; 2024 Asad Gohar. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
