@@ -1,0 +1,36 @@
+<!--The HTML5 doctype declaration is very simple-->
+<!DOCTYPE html>
+<html lang="en">
+<!--All page content is inside the HTML element-->
+    <!--Head element content is not visible in a browser window-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Asad - PersonalPortfolio</title> <!-- The following line links to our style sheet file-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <!--Content visible in the browser's window is inside the HTML element-->
+    <body>
+        <!--Header-->
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="main.html">Home</a></li> <!--Home link-->
+                    <li><a href="about.html">About Me</a></li> <!--About Me link-->
+                    <li><a href="projects.html">Projects</a></li> <!--Projects link-->
+                    <li><a href="contact.html">Contact Me</a></li> <!--Contact Me link-->
+                </ul>
+            </nav>
+        </header>
+        <!--End Header-->
+
+        <main>
+        </main>
+
+        <footer>
+            <p>Contact Email: <a href="mailto:asad.gohar@ontariotechu.net">asad.gohar@ontariotechu.net</a></p>
+            <p>&copy; 2024 Asad Gohar. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
